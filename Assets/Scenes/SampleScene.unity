@@ -7515,6 +7515,7 @@ GameObject:
   - component: {fileID: 1666914505}
   - component: {fileID: 1666914506}
   - component: {fileID: 1666914507}
+  - component: {fileID: 1666914508}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -7557,7 +7558,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 0e586872c681a3942ab344fbcf3529f3, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -7578,7 +7579,7 @@ CircleCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 0e586872c681a3942ab344fbcf3529f3, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -7602,8 +7603,25 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.047288164, y: -0.55272865}
-  m_Radius: 0.51879334
+  m_Offset: {x: 0.035179853, y: -0.51337576}
+  m_Radius: 0.49760294
+--- !u!114 &1666914508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666914504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d433fd5465bcd6a479fc1a53e8914a64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  inputUp: 37
+  inputDown: 33
+  inputLeft: 15
+  inputRight: 18
 --- !u!1 &1798733377
 GameObject:
   m_ObjectHideFlags: 0
